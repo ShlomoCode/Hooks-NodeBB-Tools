@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hooks NodeBB Tools
 // @namespace    https://madrichim.ovh
-// @version      0.2
+// @version      1.0
 // @updateURL    https://github.com/ShlomoCode/Hooks-NodeBB-Tools/raw/main/
 // @description  כלי בדיקת הוקים לאתרי נודביבי
 // @author       ShlomoCode
