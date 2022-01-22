@@ -5,7 +5,7 @@
 ניתן גם לבדוק כמה הוקים בו זמנית - פשוט לוחצים כמה פעמים על הקונטרול + Q וכל פעם מכניסים הוק אחר לבדיקה.
 באם הוכנס הוק - תוקפץ הודעת אישור עם שם ההוק, באם לא הוכנס שם הוק תקין (מתחיל ב"action" או ב"event") - תישלח הודעת שגיאה.
 הסקריפט בעבודה.
-להתקנת הסקריפט: https://github.com/ShlomoCode/Hooks-NodeBB-Tools/raw/main/Hooks-NodeBB-Tools.user.js
+להתקנת (או עדכון) הסקריפט: https://github.com/ShlomoCode/Hooks-NodeBB-Tools/raw/main/Hooks-NodeBB-Tools.user.js
 
 **חובה** להתקין **קודם** את התוסף "tampermonkey";
 * לכרום: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=iw
