@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hooks NodeBB Tools
 // @namespace    https://madrichim.ovh
-// @version      1.1
+// @version      1.2
 // @updateURL    https://github.com/ShlomoCode/Hooks-NodeBB-Tools/raw/main/
 // @description  כלי בדיקת הוקים לאתרי נודביבי
 // @author       ShlomoCode
@@ -25,7 +25,7 @@ function testAction() {
                     alert(`שים לב: ההוק "${action}" הופעל כעת!`);
                 });
                 break;
-            case "event":
+            case "event:":
                 socket.on(action, function(data) {
                     console.log("Data Hook:");
                     console.log(data);
