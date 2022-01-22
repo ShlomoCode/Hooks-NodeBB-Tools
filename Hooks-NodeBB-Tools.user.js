@@ -2,7 +2,7 @@
 // @name         Hooks NodeBB Tools
 // @namespace    https://madrichim.ovh
 // @version      0.1
-// @updateURL    https://github.com/ShlomoCode/Hooks-NodeBB-Tools/raw/master/
+// @updateURL    https://github.com/ShlomoCode/Hooks-NodeBB-Tools/raw/main/
 // @description  כלי בדיקה לhooks עבור אתרי NodeBB
 // @author       ShlomoCode
 // @match        https://mitmachim.top/*
