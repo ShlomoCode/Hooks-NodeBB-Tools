@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hooks NodeBB Tools
 // @namespace    https://madrichim.ovh
-// @version      1.0
+// @version      1.1
 // @updateURL    https://github.com/ShlomoCode/Hooks-NodeBB-Tools/raw/main/
 // @description  כלי בדיקת הוקים לאתרי נודביבי
 // @author       ShlomoCode
@@ -14,13 +14,7 @@ function testAction() {
     let TypeHook;
     TypeHook = action.match(/(action|event:)/g);
     if (TypeHook) {
-        app.alert({
-            title: "הצלחה!",
-            message: `ההוק "${action}" התווסף למצב בדיקה.`,
-            location: "left-top",
-            timeout: 2200,
-            type: "success",
-        });
+        app.alertSuccess(`ההוק "${action}" התווסף למצב בדיקה.`, 2050);
         switch (TypeHook[0]) {
             case "action":
                 $(window).on(action, function(event, data) {
